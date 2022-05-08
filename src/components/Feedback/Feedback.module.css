@@ -1,0 +1,13 @@
+.Statistics {
+    display: flex;
+    flex-direction: column;
+}
+
+.Statistics__title {
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+
+
