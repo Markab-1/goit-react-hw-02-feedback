@@ -1,26 +1,26 @@
 .Results__thumb {
-    display: inline-block;
-    width: 200px;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: left;
+  display: inline-block;
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
 }
 
 .Results__list {
-    display: inline-flex;
-    flex-direction: column;
-    justify-content: center;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .Results__item {
-    font-size: 18px;
+  font-size: 18px;
 }
 
 .Results__item:not(:last-child) {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 .number {
-    font-size: 18px;
-    font-weight: 700;
+  font-size: 18px;
+  font-weight: 700;
 }
