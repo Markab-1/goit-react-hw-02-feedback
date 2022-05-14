@@ -16,11 +16,9 @@ export const App = () => {
     onLeaveFeedback = event => {
       const option = event.target.textContent.toLowerCase();
 
-      this.setState(prevState => {
-        return {
-          [option]: prevState[option] + 1,
-        };
-      });
+      this.setState(prevState => ({
+        [option]: prevState[option] + 1,
+      }));
     };
 
     countTotalFeedback({ good, neutral, bad }) {
@@ -49,9 +47,7 @@ export const App = () => {
           </Section>
 
           <Section title="Statistics:">
-            {Object.values(this.state).some(value => {
-              return value;
-            }) ? (
+            {total ? (
               <Statistics
                 good={good}
                 neutral={neutral}
